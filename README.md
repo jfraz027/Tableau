@@ -10,9 +10,23 @@ Since 2013, the Citi Bike Program has implemented a robust infrastructure for co
 
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
 
-## Tasks
+## Primary Tasks
 
-Analyze the data in the Citi Bike Trip History Logs and find two unexpected phenomena. The data analysis was by joining CSV files through Pandas.
+Analyze the data in the Citi Bike Trip History Logs and find two unexpected phenomena.
+
+1. Low amount of customer users. With the success in New York and a city of tourism, it was surprising that there wasn't a higher number of casual customers.
+
+![image](https://user-images.githubusercontent.com/99145651/182004378-63da59f1-83eb-4ee4-8353-7bae88303071.png)
+
+Perhaps implenting a customized pricing rate will encourage people to use the bikes. Many people are working remotely but the hybrid work from home model is prevealnt in today's society. It can beneficail to offer a lower rate for shorter trips to attract the individual that doesn’t commute daily. That may increase the usage and possibly generate increased profit.
+
+2. Disparity between male and female users during the summer. The breakdown by gender and age reveals that riders are predominantly male. With usually more increased consciousness when it comes to the environement and health this was a surprise. 
+
+![image](https://user-images.githubusercontent.com/99145651/182004611-c9394c78-f60a-47cf-984e-8256e20f49f0.png)
+
+Some efforts should probably be taken in analyzing the need to accommodate females or those with varying physical ability. Men took a considerable higher amount of cycling trips as women. Females are the key to getting more people on to bikes. With Citi Bike offering bikes in just one size and despite having adjustable seat height, the bike is still too high for some users and challenging to operate, raising safety concerns. This may contribute the fewer female usage that may not be able to ride with kids for leisure or exercise. CitiBike should consider adding bikes in a smaller size to tap close this gap.
+
+## Additional Studies
 
 1. Design 2–5 visualizations for each discovered phenomenon (4–10 total). You may work with a timespan of your choosing. Optionally, you can also merge multiple datasets from different periods.
 
@@ -55,7 +69,8 @@ The Jersey City CitBike project was launched back in 2015. Jersey City was to ha
  
 ![image](https://user-images.githubusercontent.com/99145651/182003105-034483f2-28a5-4286-ad43-4ec194c1f65e.png)
  
- 
+## Data 
+The data analysis was by joining CSV files through Pandas.
  
 ## Analysis
 
